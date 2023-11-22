@@ -1,7 +1,7 @@
 import './App.css'
 import { Feed, UserProfile, SideBar } from './Components'
 
-function App() {
+const App = () => {
   return (
     <>
       <div className="main">

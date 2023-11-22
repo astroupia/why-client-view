@@ -1,6 +1,6 @@
 import SignUp from "./SignUp";
 
-function SideBar () {
+const SideBar = () => {
     return (
         <>
             <h1>SideBar</h1>
