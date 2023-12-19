@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.UserProfileContainer {
+  overflow: auto;
+}
+.profileContainer {
+  width: 95%;
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+}
+.profileDescription {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.profilePicture {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-size: contain;
+}
+.tokenContainer {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+}
+.tokenText {
+  font-size: 15px;
+}
+.tokenBox {
+  background-color: #fddaae;
+  padding: 10px;
+  border-radius: 15px;
+}
+.tokenAmount {
+  padding: 10px;
+}
+.tokenAmountText {
+  font-size: 20px;
+}
+.horizontal-line {
+  border: 1px solid #ccc; /* Border style (customize color and other properties) */
+  margin: 5px 0; /* Margin above and below the horizontal line */
+}
+
+.FundsText {
+  margin: 20px;
+  font-size: 20px;
+  color: #004225;
+}

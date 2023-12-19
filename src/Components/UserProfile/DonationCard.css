@@ -1,0 +1,79 @@
+.donation-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 90%;
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: 20px auto;
+}
+
+.donation-card:hover {
+  transform: scale(1.05);
+}
+
+.donation-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.donation-card-info {
+  padding: 16px;
+}
+
+.donation-card-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.donation-card-description {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.donation-card-details {
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.donation-card-goal,
+.donation-card-donated,
+.donation-card-percentage {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.donation-card-progress-bar {
+  height: 10px;
+  background-color: #004225;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.donation-card-progress-fill {
+  height: 100%;
+  background-color: #ffd95a;
+  transition: width 0.3s ease;
+}
+
+.donation-card-donate-button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #ffd95a;
+  color: #004225;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donation-card-donate-button:hover {
+  background-color: #ffd95a;
+}
