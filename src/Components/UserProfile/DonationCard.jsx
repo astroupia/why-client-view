@@ -1,7 +1,4 @@
 import "./DonationCard.css";
-
-// DonationCard.js
-
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import DonationModal from "./DonationModal";

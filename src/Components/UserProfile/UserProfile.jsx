@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DonationCard from "./DonationCard";
 import "./UserProfile.css";
 import Profile from "../../assets/ProfilePicture.jpeg";
+// import { useState } from "react";
 const UserProfile = () => {
   const [goal, setGoal] = useState(10000);
   const [donatedAmount, setDonatedAmount] = useState(5000);
@@ -34,7 +35,7 @@ const UserProfile = () => {
               <p className="tokenText">Token</p>
             </div>
             <div className="tokenAmount">
-              <p className="tokenAmountText">1000</p>
+              <p className="tokenAmountText">@1000</p>
             </div>
           </div>
         </div>

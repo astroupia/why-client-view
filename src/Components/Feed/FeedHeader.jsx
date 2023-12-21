@@ -16,16 +16,25 @@ const FeedHeader = () => {
                      
           </div>
           </div>
-          <div className="category">
-            <button className="btn">Raisers</button>
-            <button className="btn">Health</button>
-            <button className="btn">Event</button>
-            <button className="btn">Start-Up</button>
+          <div className="card-header">
+            {/* <Link to="user-profile">
+              <img
+                src={Profile}
+                className="profilePicture"
+                alt="profile Picture"
+              />
+            </Link> */}
           </div>
         </div>
-        <hr></hr>
-      </>
-    );
-}
+        <div className="category">
+          <button className="btn">Raisers</button>
+          <button className="btn">Health</button>
+          <button className="btn">Event</button>
+          <button className="btn">Start-Up</button>
+          <button className="btn">Top-Raisers</button>
+        </div>
+    </>
+  );
+};
 
 export default FeedHeader;

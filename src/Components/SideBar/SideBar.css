@@ -2,331 +2,287 @@
 /* a pretty thing to note that is i had the components divided starting with the logo then
 the sign up thing then the whole rest of the buttons and inputs are putted in flex and then i individually separated the inputs 
 then changed a bit of both the shapers of the buttons and tried to make it simple */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .sidebar-root {
-    height: 100%;
-    /*background: linear-gradient(to left,#ff9d9d ,#fffefe);*/
-    background-attachment: fixed;
-    color: #004225;
-    /*border: 2px solid;*/
-    /* Add other styles for your root container as needed */
-  }
-  .container{
-    margin-top: 10px ;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  margin: 130px auto;
+  width: 100%;
+  height: 100vh;
+  /*background: linear-gradient(to left,#ff9d9d ,#fffefe);*/
+  background-attachment: fixed;
+  color: #004225;
+  overflow: hidden;
+  /*border: 2px solid;*/
+  /* Add other styles for your root container as needed */
+}
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 480px;
+  width: 200px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
 
-  }
-  .input {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    height: 480px;
-    width: 200px;
-    background: #eaeaea;
-    border-radius: 6px;
-    
-  }
+.input input {
+  height: 40px;
+  width: 200px;
+  border: none;
 
-  .input input{
-    height: 40px;
-    width: 200px;
-    border: none;
-    
-    background: transparent;
-    font-size: 16px;
-  }
-  .logo{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-    /*border: 2px solid;*/
-   
-    /*text-align: center;*/
-  }
-  .img{
-    width: 130px;
-    height: 160px;
-  }
-  .h234{
-    padding-left: 60px;
-    margin-top: 0px;
-    margin-bottom: 3px;
-    /*border: 1px solid;*/
-  }
-  .signup-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* Add other styles for your signup container as needed */
-  }
-  .input-container-2{
-    border: 1px ;
-    color: #004225;
-    margin-top: 10px;
-    border-radius: 4px;
-    border-color: green;
-    border-color:#004225 ;
-    box-shadow: 0px 0px 3px silver;;
-    
-  }
-  .input-container-3{
-    border: 0.5px ;
-    color: #133627;
-    margin-top: 10px;
-    border-radius: 4px;
-    border-color:#004225 ;
-    box-shadow: 0px 0px 3px silver;;
-    
-  }
-  .input-container-4{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    
-    border-color: #004225;
-    border-radius: 4px;
-    border: 0.2px ;
-    border-color:#004225 ;
-    box-shadow: 0px 0px 3px silver;;
-  }
-  .input-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    /*border: px solid;*/
-    border: none;
-    border-radius: 9px;
-        
-    /* Add other styles for your input container as needed */
-  }
-  .input-container-2 input{
-    height: 40px;
-    width: 200px;
-    border: none;
-    background: transparent;
-    font-size: 16px;
-    
-  }
-  .input-container-3 input{
-    height: 40px;
-    width: 200px;
-    border: none;
-    background: transparent;
-    font-size: 16px;
-    
-  }
-  .input-container-4 input{
-    height: 40px;
-    width: 200px;
-    border: none;
-    background: transparent;
-    font-size: 16px;
-  }
-  /* Add styles for the rest of your components */
-  
-  .signup-button {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    background: transparent;
-    border-color:#004225;
-    border: 1px solid;
-    color: #004225;
-    font-weight: bold;
-    /* Add styles for your signup button */
-  }
-  .signup-button:hover{
-    background-color: #004225;
-    color: black;
-  }
-  
-  .signup-google-button {
-    padding-left: 10px;
-    padding-right: 30px;
-    padding-top: 8px;
-    padding-bottom: 7px;
-    border-radius: 6px;
-    font-size: 14px;
-    
-    color: #004225;
-    font-weight: bold;
-    background: transparent;
-    border: 1px solid;
-    border-color: #004225;
+  background: transparent;
+  font-size: 16px;
+}
+.logo {
+  margin: 30px;
+  /*text-align: center;*/
+}
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.img {
+  margin: 0 110px;
+  width: 130px;
+  height: 160px;
+}
+.h234 {
+  font-family: ;
+  text-align: center;
+  margin: 30px auto;
+  /*border: 1px solid;*/
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Add other styles for your signup container as needed */
+}
+.input-container-2 {
+  border: 1px;
+  color: #004225;
+  margin-top: 10px;
+  border-radius: 4px;
+  border-color: green;
+  border-color: #004225;
+  box-shadow: 0px 0px 3px silver;
+}
+.input-container-3 {
+  border: 0.5px;
+  color: #133627;
+  margin-top: 10px;
+  border-radius: 4px;
+  border-color: #004225;
+  box-shadow: 0px 0px 3px silver;
+}
+.input-container-4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
 
-    display: flex;
-    align-items: center;   
-    /* Add styles for your Google signup button */
-  }
+  border-color: #004225;
+  border-radius: 4px;
+  border: 0.2px;
+  border-color: #004225;
+  box-shadow: 0px 0px 3px silver;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  /*border: px solid;*/
+  border: none;
+  border-radius: 9px;
 
-.google{
+  /* Add other styles for your input container as needed */
+}
+.input-container-2 input {
+  height: 40px;
+  width: 200px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+.input-container-3 input {
+  height: 40px;
+  width: 200px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+.input-container-4 input {
+  height: 40px;
+  width: 200px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+/* Add styles for the rest of your components */
+
+.signup-button {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background: transparent;
+  border-color: #004225;
+  border: 1px solid;
+  color: #004225;
+  font-weight: bold;
+  /* Add styles for your signup button */
+}
+.signup-button:hover {
+  background-color: #004225;
+  color: black;
+}
+
+.signup-google-button {
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  border-radius: 6px;
+  font-size: 14px;
+
+  color: #004225;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid;
+  border-color: #004225;
+
+  display: flex;
+  align-items: center;
+  /* Add styles for your Google signup button */
+}
+
+.google {
   width: 60px;
   padding-top: 2px;
   margin-left: 10px;
 }
 
+.signup-google-button:hover {
+  background-color: gold;
+  color: black;
+}
 
-  .signup-google-button:hover{
-    background-color: gold;
-    color: black;
-  }
-  
-  .horizontal-line-with-text {
-    display: flex;
-    align-items: center;
-    color: #004225;
-    margin: 30px 0;
-    /*border: 1px solid;*/
-  }
-  .alex{
-    color: silver;
-  }
-  .bob{
-    color:rgb(15, 94, 67);
-  }
-  .horizontal-line-with-text hr {
-    color: green;
-    
-    flex-grow: 1;
-    height: 2px;
-    width: 70px;
-    
-    background-color: gold;
-    border: none;
-    margin: 0 10px;
-  }
-  
-.thelogo{
+.horizontal-line-with-text {
   display: flex;
-  
-  
+  align-items: center;
+  color: #004225;
+  margin: 30px 0;
+  /*border: 1px solid;*/
+}
+.alex {
+  color: silver;
+}
+.bob {
+  color: rgb(15, 94, 67);
+}
+.horizontal-line-with-text hr {
+  color: green;
+
+  flex-grow: 1;
+  height: 2px;
+  width: 70px;
+
+  background-color: gold;
+  border: none;
+  margin: 0 10px;
+}
+
+.thelogo {
+  display: flex;
+
   gap: 20px;
   align-items: center;
   margin-top: 20px;
-
 }
 
+.sign-in-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+/* the css for the sidemenu thingi*/
 
-
-
-
-  .sign-in-options{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-  }
-
-  .sign-in-button{
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* the css for the sidemenu thingi*/
-
-.sidemenu{
+.sidemenu {
   /*border: 1px solid;*/
   display: flex;
   flex-direction: column;
   column-gap: 10px;
+  color: var(--secondary-color);
 }
-  .sidebar-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    column-gap: 40px;
-    /*border: 1px solid;*/
-    margin-top: 20px;
-  }
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 40px;
+  /*border: 1px solid;*/
+  margin-top: 20px;
+}
 
-  .thebutton{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+.thebutton {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.signup-b {
+  margin-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 16px;
+  font-size: 14px;
 
-
-  .signup-b {
-    
-    margin-top: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 16px;
-    font-size: 14px;
-    
-    
-    color: #004225;
-    font-weight: bold;
-    background: transparent;
-    border: 1px solid;
-    border-color: #004225;
-
-  }
-.signup-b:hover{
+  color: #004225;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid;
+  border-color: #004225;
+}
+.signup-b:hover {
   background-color: #004225;
   color: black;
 }
 
-  .signin-f {
-     
-    margin-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 16px;
-    font-size: 14px;
-    
-    
-    color: #004225;
-    font-weight: bold;
-    background: transparent;
-    border: 1px solid;
-    border-color: gold;
-  }
+.signin-f {
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 16px;
+  font-size: 14px;
 
-  .signin-f:hover{
-    background-color: gold;
-    color: black;
-  }
+  color: #004225;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid;
+  border-color: gold;
+}
 
-
+.signin-f:hover {
+  background-color: gold;
+  color: black;
+}
 
 /*
   .sign-f {
@@ -344,17 +300,17 @@ then changed a bit of both the shapers of the buttons and tried to make it simpl
     border-color: #004225;
   }
 */
-  .h12{
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .h13{
-    margin-bottom: 20px;
-  }
-  .h14{
-    margin-bottom: 20px;
-  }
-  .h15{
-    margin-bottom: 20px;
-  }
+.h12 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.h13 {
+  margin-bottom: 20px;
+}
+.h14 {
+  margin-bottom: 20px;
+}
+.h15 {
+  margin-bottom: 20px;
+}
