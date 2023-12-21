@@ -16,10 +16,16 @@ const Sidemenu = () => {
       </div>
       <div className="sidebar-menu">
         <div className="sidemenu">
-          <h1 className="h12">Fund setter</h1>
-          <h1 className="h13">About us</h1>
-          <h1 className="h14">Terms - Policy</h1>
-          <h1 className="h15">Contact</h1>
+          <Link to="/fund-setter">
+            <h1 className="h12">Fund setter</h1>
+          </Link>
+          <Link to="/about-us">
+            <h1 className="h13">About us</h1>
+          </Link>
+          <Link to="/terms-policy">
+            <h1 className="h14">Terms - Policy</h1>
+          </Link>
+          {/* <h1 className="h15">Contact</h1> */}
         </div>
 
         <div className="thebutton">

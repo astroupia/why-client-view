@@ -2,18 +2,24 @@
 /* a pretty thing to note that is i had the components divided starting with the logo then
 the sign up thing then the whole rest of the buttons and inputs are putted in flex and then i individually separated the inputs 
 then changed a bit of both the shapers of the buttons and tried to make it simple */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .sidebar-root {
+  margin: 130px auto;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   /*background: linear-gradient(to left,#ff9d9d ,#fffefe);*/
   background-attachment: fixed;
   color: #004225;
+  overflow: hidden;
   /*border: 2px solid;*/
   /* Add other styles for your root container as needed */
 }
 .container {
-  margin-top: 10px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -37,21 +43,23 @@ then changed a bit of both the shapers of the buttons and tried to make it simpl
   font-size: 16px;
 }
 .logo {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  padding-left: 30px;
-  /*border: 2px solid;*/
-
+  margin: 30px;
   /*text-align: center;*/
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .img {
+  margin: 0 110px;
   width: 130px;
   height: 160px;
 }
 .h234 {
-  padding-left: 60px;
-  margin-top: 0px;
-  margin-bottom: 3px;
+  font-family: ;
+  text-align: center;
+  margin: 30px auto;
   /*border: 1px solid;*/
 }
 .signup-container {
@@ -210,9 +218,6 @@ then changed a bit of both the shapers of the buttons and tried to make it simpl
   justify-content: center;
 }
 
-.sign-in-button {
-}
-
 /* the css for the sidemenu thingi*/
 
 .sidemenu {
@@ -220,6 +225,7 @@ then changed a bit of both the shapers of the buttons and tried to make it simpl
   display: flex;
   flex-direction: column;
   column-gap: 10px;
+  color: var(--secondary-color);
 }
 .sidebar-menu {
   display: flex;

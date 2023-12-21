@@ -1,27 +1,17 @@
 // Sidebar/Signup.jsx
 
-import React from "react";
-{
-  /*import { Link } from 'react-router-dom';*/
-}
+import { Link } from "react-router-dom";
 import "./Sidebar.css"; // Importing sidebar styles
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import logo2 from "../../assets/logo2.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Signup = () => {
   return (
     <div className="sidebar-root">
-      {/* the why Logo Section */}
-      {/* ... */}
-
       {/* Sign Up Section */}
-      <div className="logo">
+      {/* <div className="logo">
         <img className="img" src={logo} alt="logo" />
-      </div>
+      </div> */}
       <h2 className="h234">Sign-Up</h2>
       <div className="signup-container">
         {/* Email Input */}
@@ -44,7 +34,7 @@ const Signup = () => {
 
         {/* Sign Up Button */}
         <button className="signup-button">
-          <link>Sign-In</link>
+          <Link to="/sign-up">Sign-Up</Link>
         </button>
 
         {/* Already have an account */}
@@ -52,7 +42,9 @@ const Signup = () => {
           Already have an account?{" "}
           <a className="bob" href="#">
             {" "}
-            <b>Sign in </b>{" "}
+            <b>
+              <Link to="/sign-in">Sign-In</Link>
+            </b>{" "}
           </a>{" "}
         </p>
 
@@ -70,20 +62,6 @@ const Signup = () => {
             <img className="google" src={logo2} alt="google" />
             Sign Up with Google
           </button>
-        </div>
-        <div className="thelogo">
-          <FontAwesomeIcon
-            icon={faFacebookSquare}
-            style={{ fontSize: "40px", color: "#004225" }}
-          />
-          <FontAwesomeIcon
-            icon={faTwitter}
-            style={{ fontSize: "40px", color: "#004225" }}
-          />
-          <FontAwesomeIcon
-            icon={faInstagram}
-            style={{ fontSize: "40px", color: "#004225" }}
-          />
         </div>
       </div>
     </div>

@@ -7,11 +7,11 @@ import Sidemenu from "./SideMenu.jsx";
 const Sidebar = () => {
   return (
     <div className="sidebar-root">
-      <Routes>
+      {/* <Routes>
         <Route exact path="/" Component={Sidemenu} />
         <Route exact path="/sign-in" Component={Signin} />
         <Route exact path="/sign-up" Component={Signup} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 };

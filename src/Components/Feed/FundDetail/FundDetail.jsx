@@ -1,9 +1,9 @@
-import FeedHeader from "../Feed/FeedHeader";
+import FeedHeader from "../FeedHeader";
 
 const FundDetail = () => {
   return (
     <>
-      <FeedHeader />
+      <FeedHeader title="Fund Detail" />
     </>
   );
 };

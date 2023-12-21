@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.header {
+  padding-bottom: 10px;
+  border-bottom: solid 0.5px var(--secondary-color);
+}
+
 .upper-header {
   margin: 25px;
 }
@@ -12,21 +17,15 @@
   color: var(--secondary-color);
 }
 
-/* label {
-    margin: 0 5px 0 0;
-    display: block;
-  } 
-  
-  .input {
-    padding: 20px;
-    width: 100%;
-    border: solid 2px var(--primary-color);
-    border-radius: 20px;
-  } */
-
 .category {
   margin: 10px;
   display: flex;
+  align-content: center;
+  justify-items: center;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
 }
 
 .btn {
@@ -37,4 +36,48 @@
   border: solid 1px var(--primary-color);
   color: var(--secondary-color);
   background: transparent;
+}
+
+.form-control {
+  border: none;
+}
+
+.search {
+  align-items: center;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  display: flex;
+  align-content: center;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  border: solid var(--primary-color);
+  border-radius: 20px;
+  width: 450px;
+  padding-left: 20px;
+}
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.progress {
+  width: 50%;
+  height: 100%;
+  background: solid gold;
+  border-radius: 20px;
+}
+
+.card-header {
+  margin: 0 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
