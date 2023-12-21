@@ -10,15 +10,13 @@ const Feed = () => {
       <FeedHeader />
       <div className="main-card">
         <div className="img-container">
-            <img
-              src={Card}
-              className="card-image"
-              alt="profile Picture"
-            ></img>
+          <img src={Card} className="card-image" alt="profile Picture"></img>
         </div>
         <div className="content">
           <h3>Raising Capital for inhouse Ev Startup</h3>
-          <h5>A unique Concept EV for everyday transport, leisure & Biking fun</h5>
+          <h5>
+            A unique Concept EV for everyday transport, leisure & Biking fun
+          </h5>
         </div>
         <div className="status">
           <button className="btn">Raise</button>
@@ -26,8 +24,6 @@ const Feed = () => {
           <button className="btn">Subcriber</button>
         </div>
       </div>
-
-      
     </>
   );
 };

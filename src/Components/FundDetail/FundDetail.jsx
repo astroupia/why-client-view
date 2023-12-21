@@ -1,14 +1,11 @@
 import FeedHeader from "../Feed/FeedHeader";
 
-
 const FundDetail = () => {
-    return (
-        <>
-            <FeedHeader />
-
-
-        </>
-    ); 
-}
+  return (
+    <>
+      <FeedHeader />
+    </>
+  );
+};
 
 export default FundDetail;

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import DonationCard from "./DonationCard";
 import "./UserProfile.css";
 import Profile from "../../assets/ProfilePicture.jpeg";
