@@ -19,21 +19,96 @@
   display: flex;
 }
 
-.btn {
+
+.status{
+ 
+  display: flex;
+
+}
+
+.btn-1{
+ 
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
+.btn-2{
+  margin-right:20px ;
+ 
+  display: flex;
+  align-items: center;
+ 
+}
+
+.btn-3{
+ 
+  display: flex;
+  align-items: center;
+}
+
+.Form-control{
+  border: solid var(--primary-color);
+}
+
+
+.ntb{
   width: 100px;
   margin: 0px 10px;
-  border-radius: 20px;
-  padding: 10px;
-  border: solid 0.5px var(--primary-color);
+  border-radius: 10px;
+  /*padding: 10px;*/
+  border: solid 1px var(--primary-color);
   color: var(--secondary-color);
   background: transparent;
+  background-color: var(--primary-color);
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ntb-3{
+  width: 100px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  border: solid 1px var(--primary-color);
+  color: var(--secondary-color);
+  background: transparent;
+  background-color: var(--primary-color);
+  color: black;
+}
+.ntb:hover{
+  background: gold;
+
+}
+.ntb-3:hover{
+  background: gold;
 }
 
 .main-card {
+<<<<<<< HEAD
+  border: solid 3px var(--primary-color);
+  margin-top: 50px;
+  margin-bottom:20px ;
+  margin-left:20px ;
+  margin-right: 20px;
+  padding: 0px;
+  width: 700px;
+
+=======
   border: solid 1px var(--primary-color);
   border-radius: 22px;
+<<<<<<< HEAD
   margin: 25px 15px;
   width: 350px;
+=======
+  margin: 25px 20px;
+  width: 310px;
+>>>>>>> 252254d4e47d85b4ab67586459bb1d6fa6a22217
+>>>>>>> df7e2b909d2c96327eb558d62895224c99cadfe9
 }
 
 .img-container {
@@ -58,10 +133,31 @@ img {
 .content h5 {
   color: var(--accent-color);
 }
+<<<<<<< HEAD
+.MiniCard{
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  border: solid gray 1px;
+}
+.circleImage{
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+ .StatusDetail{
+  display: flex;
+  flex-direction: column;
+ }
+=======
 
 .main-feed-card {
   display: flex;
 }
+>>>>>>> 252254d4e47d85b4ab67586459bb1d6fa6a22217
 
 .status {
   margin: 10px 0;

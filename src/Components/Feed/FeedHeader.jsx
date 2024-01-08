@@ -1,4 +1,5 @@
 import "./FeedHeader.css";
+<<<<<<< HEAD
 // import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons/faMagnifyingGlass";
@@ -13,13 +14,24 @@ const FeedHeader = ({ title }) => {
           <h1> {title}</h1>
         </div>
         <div className="search">
+=======
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+const FeedHeader = () => {
+    return (
+      <>
+        <div className="header">
+          <div className="upper-header">
+            <h1>Feed</h1>
+          </div>
+          <div className="search">
+>>>>>>> df7e2b909d2c96327eb558d62895224c99cadfe9
           <div className="searchbar">
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
-            <input
-              type="text"
-              className="form-control"
-              placeholder="search"
-            ></input>
+          <FontAwesomeIcon icon={faMagnifyingGlass} />
+            
+            <input type="text" className="form-control" placeholder="search"></input>
+                     
+          </div>
           </div>
           <div className="card-header">
             {/* <Link to="user-profile">
@@ -40,7 +52,6 @@ const FeedHeader = ({ title }) => {
           <button className="btn">Start-Up</button>
           <button className="btn">Top-Raisers</button>
         </div>
-      </div>
     </>
   );
 };
