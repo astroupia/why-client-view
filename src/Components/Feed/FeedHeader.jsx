@@ -2,6 +2,7 @@ import "./FeedHeader.css";
 // import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons/faMagnifyingGlass";
+import { Link } from "react-router-dom";
 // import Profile from "../../assets/ProfilePicture.jpeg";
 
 const FeedHeader = ({ title }) => {
@@ -31,7 +32,9 @@ const FeedHeader = ({ title }) => {
           </div>
         </div>
         <div className="category">
-          <button className="btn">Raisers</button>
+          <Link to="/status">
+            <button className="btn">Raisers</button>
+          </Link>
           <button className="btn">Health</button>
           <button className="btn">Event</button>
           <button className="btn">Start-Up</button>

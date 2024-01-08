@@ -9,11 +9,7 @@ const FeedCard = () => {
         <Link to="/Fund-detail">
           <div className="main-card">
             <div className="img-container">
-              <img
-                src={Card}
-                className="card-image"
-                alt="profile Picture"
-              ></img>
+              <img src={Card} className="card-image" alt="Fund Image"></img>
             </div>
             <div className="content">
               <h3>Raising Capital for inhouse Ev Startup</h3>
@@ -22,20 +18,16 @@ const FeedCard = () => {
               </h5>
             </div>
             <div className="status">
-              <button className="btn">Raise</button>
+              <button className="btn">Fund</button>
               {/* <button className="btn">Goal</button> */}
               <button className="btn">Subcribe</button>
             </div>
           </div>
         </Link>
-        <Link to="/Fund-detail">
+        <Link to="/fund-detail">
           <div className="main-card">
             <div className="img-container">
-              <img
-                src={Card}
-                className="card-image"
-                alt="profile Picture"
-              ></img>
+              <img src={Card} className="card-image" alt="Fund Image"></img>
             </div>
             <div className="content">
               <h3>Raising Capital for inhouse Ev Startup</h3>
@@ -44,7 +36,7 @@ const FeedCard = () => {
               </h5>
             </div>
             <div className="status">
-              <button className="btn">Raise</button>
+              <button className="btn">Fund</button>
               {/* <button className="btn">Goal</button> */}
               <button className="btn">Subcribe</button>
             </div>

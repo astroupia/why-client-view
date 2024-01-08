@@ -6,6 +6,8 @@ import Signup from "./SideBar/SignUp";
 import Sidemenu from "./SideBar/SideMenu";
 import FundDetail from "./Feed/FundDetail/FundDetail";
 import FeedStatus from "./Feed/FeedStatus";
+import AboutUs from "./Feed/AboutUs/AboutUs";
+import Terms from "./Feed/Terms/Terms";
 
 export {
   Feed,
@@ -16,4 +18,6 @@ export {
   Sidemenu,
   FundDetail,
   FeedStatus,
+  AboutUs,
+  Terms,
 };

@@ -32,8 +32,8 @@
 .main-card {
   border: solid 1px var(--primary-color);
   border-radius: 22px;
-  margin: 25px 20px;
-  width: 310px;
+  margin: 25px 15px;
+  width: 350px;
 }
 
 .img-container {

@@ -5,15 +5,21 @@ import FeedHeader from "./FeedHeader";
 const FeedStatus = () => {
   return (
     <>
-      <FeedHeader />
-      <div className="MiniCard">
-        <div className="card-image">
+      <FeedHeader title="Raisers" />
+      <div className="mini-card">
+        <div className="image-status">
           <img src={Card} alt="profile Picture"></img>
         </div>
-        <h2> nebiyu yohannes</h2>
-        <p>start up owner</p>
-        <button className="btn"> raised</button>
-        <p>$2,500</p>
+        <div className="description">
+          <div className="content">
+            <h2>Nebiyu Yohannes</h2>
+            <p>Start Up Owner</p>
+          </div>
+          <div className="stat">
+            <button className="btn">Raised</button>
+            <h5>$2,500</h5>
+          </div>
+        </div>
       </div>
     </>
   );

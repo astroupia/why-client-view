@@ -1,0 +1,12 @@
+.term-container {
+  margin: 30px 30px;
+  color: var(--secondary-color);
+}
+
+.term {
+  margin: 20px auto;
+}
+
+.term ul {
+  margin: 10px 30px;
+}

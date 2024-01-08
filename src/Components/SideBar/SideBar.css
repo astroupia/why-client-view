@@ -9,7 +9,7 @@ then changed a bit of both the shapers of the buttons and tried to make it simpl
 }
 .sidebar-root {
   margin: 130px auto;
-  width: 100%;
+  width: 350px;
   height: 100vh;
   /*background: linear-gradient(to left,#ff9d9d ,#fffefe);*/
   background-attachment: fixed;

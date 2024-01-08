@@ -7,7 +7,7 @@ body {
 }
 .profileContainer {
   margin: 10px 20px;
-  width: 95%;
+  width: 350px;
   height: 120px;
   padding: 10px;
   display: flex;

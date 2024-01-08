@@ -8,7 +8,9 @@ import {
   UserProfile,
   Feed,
   FeedStatus,
+  Terms,
 } from "./Components";
+import AboutUs from "./Components/Feed/AboutUs/AboutUs";
 
 const App = () => {
   return (
@@ -22,9 +24,10 @@ const App = () => {
             <Route exact path="/" Component={Feed} />
             <Route path="/sign-in" Component={Signin} />
             <Route path="/sign-up" Component={Signup} />
-            <Route path="/Fund-detail" Component={FundDetail} />
+            <Route path="/fund-detail" Component={FundDetail} />
             <Route path="/status" Component={FeedStatus} />
-            <Route path="/user-profile" Component={UserProfile} />
+            <Route path="/about-us" Component={AboutUs} />
+            <Route path="/terms" Component={Terms} />
           </Routes>
         </div>
         <div id="user-profile">

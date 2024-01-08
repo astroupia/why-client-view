@@ -12,20 +12,21 @@ const Sidemenu = () => {
   return (
     <div>
       <div className="logo">
-        <img className="img" src={logo} alt="logo" />
+        <Link to="/">
+          <img className="img" src={logo} alt="logo" />
+        </Link>
       </div>
       <div className="sidebar-menu">
         <div className="sidemenu">
-          <Link to="/fund-setter">
-            <h1 className="h12">Fund setter</h1>
+          <Link to="/fund-detail">
+            <h1 className="h12">Fund Detail</h1>
+          </Link>
+          <Link to="/terms">
+            <h1 className="h13">Terms and Policy</h1>
           </Link>
           <Link to="/about-us">
             <h1 className="h13">About us</h1>
           </Link>
-          <Link to="/terms-policy">
-            <h1 className="h14">Terms - Policy</h1>
-          </Link>
-          {/* <h1 className="h15">Contact</h1> */}
         </div>
 
         <div className="thebutton">
